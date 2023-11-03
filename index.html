@@ -1,0 +1,86 @@
+<!--DOCTYPE html-->
+<html lang="en">
+  <head>
+
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+  </head>
+<!--User Story #1: I can see a title with id="title" in H1 sized text.-->
+  <h1 id="title">Gym Customer Service</h1>
+<!--User Story #2: I can see a short explanation with id="description" in P sized text.-->
+  <p id="description">Performance Evaluation Survey Form</p>
+<!--User Story #3: I can see a form with id="survey-form".-->
+  <form id="survey-form">
+    <div>
+<!--User Story #4: Inside the form element, I am required to enter my name in a field with id="name".-->
+      <label id="name-label" class="form-label" for="name">Name:</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required></input>
+    </div>
+    <div>
+<!--User Story #5: Inside the form element, I am required to enter an email in a field with id="email".-->
+      <label id="email-label" class="form-label" for="email">E-mail:</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required></input>
+<!--User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.-->
+    </div>
+    <div>
+<!--User Story #7: Inside the form, I can enter a number in a field with id="number".-->      
+      <label id="number-label" class="form-label" for="number">Age:</label>
+      <input type="number" name="age" id="number" class="form-control" placeholder="Enter your age" min=1 max=120 required></input>
+<!--User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error.
+
+User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error. 
+
+User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".
+
+User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.-->   
+    </div>
+    <div>
+<!--User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.-->      
+      <label id="activity" class="form-label" for="attendance"> What activity do you like most at the gym?
+      <nav><input class="form-check" id="bodybuilding" type="checkbox" name="personality" value="1">Bodybuilding</input></nav>
+      <nav><input class="form-check" id="swimming" type="checkbox" name="personality" value="2">Swimming</input></nav>
+      <nav><input class="form-check" id="crossfit" type="checkbox" name="personality" value="3">Crossfit</input></nav>
+      <nav><input class="form-check" id="judo" type="checkbox" name="personality" value="4">Judo</input></nav>
+      <nav><input class="form-check" id="dance" type="checkbox" name="personality" value="5">Dance</input></nav>
+      <nav><input class="form-check" id="aerobic circuit" type="checkbox" name="personality" value="6">Aerobic circuit</input></nav>
+      </label>
+    </div>
+    <div class="form-label">Would you recommend the gym to a friend?
+      <label for="yes">
+        <input id="yes" type="radio" value="yes" name="yes-no" required>Yes
+      </label>
+      <label for="no">
+        <input id="no" type="radio" value="no" name="yes-no" required>No
+      </label>
+    </div>
+    <div class="form-label">What is your level of satisfaction?
+<!--User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".-->      
+      <select id="dropdown" class="form-control">
+        <option value=""></option>
+        <option value="verylow">Very Low</option>
+        <option value="low">Low</option>
+        <option value="reg">Regular</option>
+        <option value="high">High</option>
+        <option value="veryhigh">Very High</option>
+      </select>
+    </div>
+    <div>
+<!--User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.-->      
+      <label class="form-label" for="text-area"></label>Questions and suggestions:
+      <textarea type="text" id="text-area" class="form-control" placeholder="Enter your question or suggestion"></textarea>
+    </div>
+    <div>
+<!--User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.-->      
+      <button id="submit" class="submit" type="submit">Submit</button>
+<!--User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.-->      
+    </div>
+  </form>
+</HTML>

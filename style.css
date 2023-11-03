@@ -1,0 +1,82 @@
+/* General Attribution */
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-image: url(https://images.pexels.com/photos/302663/pexels-photo-302663.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-position: center;
+  background-repeat: non-repeat;
+  opacity: 0.9;
+  }
+
+/* Survey Form */
+   
+#title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #53C547; 
+  text-align: center;
+  }
+
+#description {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+#survey-form {
+  postion: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  line-height: 50px;
+  border-style: transparent;
+  background-color: #53C547;
+  }
+
+.form-label {
+  margin-left: 20px;
+  }
+
+.form-control {
+  display: block;
+  position: relative;
+  bottom: 10px;
+  width: 90%;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+  }
+
+nav {
+  position: relative;
+  bottom: 10px;
+}
+
+.form-check {
+  margin-left: 30px;
+  }
+
+#dropdown {
+  margin-left: 25px;
+}
+
+#text-area {
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
+  }
+
+.submit{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 35px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  }
